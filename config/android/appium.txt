@@ -1,0 +1,4 @@
+[caps]
+		deviceName = "Redmi"
+		platformName = "Android"
+		app = "./apk/app-prod-debug.apk"

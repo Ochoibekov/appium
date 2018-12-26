@@ -1,0 +1,5 @@
+[caps]
+		deviceName = "Iphone XR"
+		platformName = "ios"
+		app = "Users/omurbek/Desktop/foodclient.ipa"
+		automationName = "XCUITest"
