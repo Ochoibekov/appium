@@ -2,7 +2,7 @@ module Android
 	class GeneralPage
 		
 		def close_ads
-			$driver.find_element(id: "close").click
+			$driver.find_element(id: "ny_close").click
 		end
 
 		def go_to_profile
