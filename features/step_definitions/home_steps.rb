@@ -15,8 +15,6 @@ end
 Then("login") do
   current_page = $ENV::GeneralPage.new
   current_page.login	
-    # Appium::TouchAction.new.tap( x: 200, y: 941, count: 1).release.perform
-    # Appium::TouchAction.new.tap( x: 75, y: 188, count: 1).release.perform
 end
 
 Then("go to food section") do

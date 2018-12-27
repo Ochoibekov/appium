@@ -59,13 +59,6 @@ module Android
 			$driver.find_element(:xpath, "//android.widget.TextView[@text='Средний чек:']")
 			$driver.find_element(:xpath, "//android.widget.TextView[@text='09:00-20:30']")
 			$driver.find_element(:xpath, "//android.widget.TextView[@text='400сом']")
-
-			# driver.find_element(id: "deliveryTitle").text.should == "Фаиза" 
-		 #  	driver.find_element(id: "deliveryTitle").text.should == "Национальная кухня" 
-		 #  	driver.find_element(id: "timeTitle").text.should == "Время работы:" 
-		 #  	driver.find_element(id: "checkTitle").text.should == "Средний чек:" 
-		 #  	driver.find_element(id: "timeValue").text.should == "09:00-20:30" 
-		 #  	driver.find_element(id: "checkValue").text.should == "400сом" 
 		end
 
 	end
