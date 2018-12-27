@@ -1,16 +1,5 @@
 require "appium_lib"
 
-# def caps
-# 	{ caps: {
-# 		deviceName: "Redmi",
-# 		platformName: "Android",
-# 		app: "./apk/app-prod-debug.apk"
-
-# 		}
-# 	}
-# end
-
-
 def load_appium_configuration(platform)
   Appium.load_appium_txt :file => File.expand_path("./../../../config/#{platform}/appium.txt", __FILE__), verbose: true
 end
